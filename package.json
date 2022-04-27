@@ -1,0 +1,24 @@
+{
+  "name": "verstka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "node-sass -w ./src/scss -o ./src/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyacheslavkostyanets/shop-online.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vyacheslavkostyanets/shop-online/issues"
+  },
+  "homepage": "https://github.com/vyacheslavkostyanets/shop-online#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
