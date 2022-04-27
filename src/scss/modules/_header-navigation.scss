@@ -1,0 +1,17 @@
+.header-navigation {
+	background-color: $color4;
+	&__link {
+		font-size: 1.4rem;
+		line-height: 1.6rem;
+		color: $link-color;
+		&:not(:last-child){
+			margin-right: 30px;
+		}
+	}
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 17px 0;
+	}
+}

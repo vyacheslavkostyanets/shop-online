@@ -1,2 +1,28 @@
+html {
+  font-size: 10px;
+  line-height: 10px;
+  color: black; }
+
 body {
-  background-color: black; }
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #212325; }
+  a:hover {
+    text-decoration: underline; }
+
+.header-navigation {
+  background-color: #B6D321; }
+  .header-navigation__link {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: black; }
+    .header-navigation__link:not(:last-child) {
+      margin-right: 30px; }
+  .header-navigation__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 0; }
