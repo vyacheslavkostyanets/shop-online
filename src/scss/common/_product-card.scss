@@ -2,12 +2,17 @@ $product-card-image-width: 80%;
 $product-card-height: 160px;
 
 .product-card {
+	background-color: $card-color;
+	display: flex;
+	flex-direction: column;
 	text-align: center;
 	padding: 2rem;
+	align-items: center;
 	
 	&__img {
-		width: $product-card-width;
+		width: $product-card-image-width;
 		height: $product-card-height;
+		object-fit: contain;
 	}
 
 	&__title {
@@ -29,9 +34,8 @@ $product-card-height: 160px;
 		color: $main-text-color;
 	}
 
-	&__img,
 	
 	&__price {
-		mirgin-bottom: 20px;
+		margin-bottom: 20px;
 	}
 }
