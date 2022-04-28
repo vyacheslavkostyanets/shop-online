@@ -5,8 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./src/css/index.css" />
   </head>
   <body>
-    <h1>HELLO WORLD 1112222333</h1>
+    <section class="header-navigation">
+      <div class="wrapper header-navigation__wrapper">
+        <a href="#" class="header-navigation__link"> Доставка </a>
+        <a href="#" class="header-navigation__link"> Оплата </a>
+        <a href="#" class="header-navigation__link"> Отзывы </a>
+        <a href="#" class="header-navigation__link"> Контакты </a>
+        <a href="#" class="header-navigation__link"> Вопрос-ответ </a>
+      </div>
+    </section>
+    <header>
+      <div class="wrapper header__wrapper">
+        <a href="#" class="header__logo-block">
+          <img
+            src="./src/assets/images/logo.png"
+            alt="logo"
+            class="header__logo_img"
+          />
+          <span class="header__logo-title">Massage Salon</span>
+        </a>
+        <div class="header__search-block">
+          <img
+            src="./src/assets/images/search.png"
+            alt="logo"
+            class="header__search_icon"
+          />
+          <input type="text" class="header__search_input" />
+        </div>
+
+        <div class="header__callback-block callback-block">
+          <a
+            class="header__phone-number callback-block__phone-number"
+            href="tel:9991234567"
+            >0 (987) 123-45-67</a
+          >
+          <button
+            class="header__callback-button callback-block__callback-button default-button"
+          >
+            Обратный звонок
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="special-products">
+      <div class="wrapper special-products__wrapper">
+        <h2 class="special-products__title">Специальные предложения</h2>
+        <div class="special-products__items">
+          <div class="special-products__item product-card">
+            <img src="" alt="product1" class="product-card__img" />
+            <span class="product-card__title">
+              Качественные услуги по доступным ценам
+            </span>
+            <span class="product-card__price"> 30 USD </span>
+            <button class="product-card__buy_button default-button">
+              Купить
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

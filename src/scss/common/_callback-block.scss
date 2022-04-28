@@ -1,0 +1,14 @@
+.callback-block{
+	display: block;
+	align-items: center;
+	&__phone-number{
+		font-size: 1.6rem;
+		line-height: 1.9rem;
+		color: $link-color;
+		margin-right: 40px;
+	}
+	&__callback-button{
+		border-color: $color1!important;
+		background: $color2;
+	}
+}

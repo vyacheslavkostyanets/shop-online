@@ -1,0 +1,13 @@
+.default-button{
+	cursor: pointer;
+	border-radius: 40px;
+	color: $link-color;
+	padding: 12px 25px;
+	border: 2px solid;
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+	&:hover{
+		background-color: $color3;
+		color: $color2;
+	}
+}

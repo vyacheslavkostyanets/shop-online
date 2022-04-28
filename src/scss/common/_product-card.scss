@@ -1,0 +1,37 @@
+$product-card-image-width: 80%;
+$product-card-height: 160px;
+
+.product-card {
+	text-align: center;
+	padding: 2rem;
+	
+	&__img {
+		width: $product-card-width;
+		height: $product-card-height;
+	}
+
+	&__title {
+		font-size: 1.4rem;
+		line-height: 2rem;
+		text-align: center;
+		color: $main-text-color;
+	}
+
+	&__price {
+		font-weight: 500;
+		font-size: 2rem;
+		line-height: 2rem;
+		letter-spacing: 0.05rem;
+		color: $main-text-color;
+	}
+	&__buy-button {
+		background: $button-color;
+		color: $main-text-color;
+	}
+
+	&__img,
+	
+	&__price {
+		mirgin-bottom: 20px;
+	}
+}
