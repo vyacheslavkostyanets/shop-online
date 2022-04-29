@@ -1,0 +1,55 @@
+$info-block-input-color: #a0c37b;
+
+.info-block {
+	background-color: $backgroundblockcolor;
+	border-radius: 1%;
+	margin: 2em 0;
+	color: $color4;
+	display: flex;
+	justify-content: space-between;
+
+	color: $main-text-color;
+
+	&__main-block {
+		
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__image-block {
+		display: block;
+		justify-content: center;
+		align-items: center;
+		margin-left: 6em;
+	}
+
+	&__image {
+		width: 70%;
+	}
+	&__title {
+		font-weight: bold;
+		font-size: 1.8rem;
+		line-height: 2.1rem;
+	}
+
+	&__subtitle {
+		font-size: 1.4rem;
+		line-height: 2rem;
+	}
+
+	&__title,
+	&__subtitle {
+		margin-bottom: 25px;
+	}
+
+	&__input {
+		border-radius: 30px;
+		background: $backgroundblockcolor;
+	}
+
+	&__button {
+		border-color: $color2;
+		background: $button-color;
+		color: $main-text-color;
+	}
+}
