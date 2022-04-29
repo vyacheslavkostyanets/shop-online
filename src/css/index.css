@@ -167,12 +167,14 @@ a {
     margin-bottom: 55px; }
 
 .info-block {
-  background-color: #cbcbcb;
+  padding: 5rem;
+  background-color: #F9F9FA;
   border-radius: 1%;
   margin: 2em 0;
   color: #B6D321;
   display: flex;
   justify-content: space-between;
+  width: #212325;
   color: black; }
   .info-block__main-block {
     display: flex;
@@ -207,3 +209,22 @@ a {
 
 .info-blocks__item:not(:last-child) {
   margin-right: 30px; }
+
+.sponsors {
+  background-color: #7CB342; }
+  .sponsors__wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+  .sponsors__item {
+    width: 25%;
+    max-width: 25%;
+    box-sizing: border-box; }
+
+.sponsor-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #B6D321; }
+  .sponsor-item__img {
+    width: 150px;
+    height: 50px; }

@@ -1,13 +1,14 @@
 $info-block-input-color: #a0c37b;
 
 .info-block {
-	background-color: $backgroundblockcolor;
+	padding: 5rem;
+	background-color: $recently-watched-products-background;
 	border-radius: 1%;
 	margin: 2em 0;
 	color: $color4;
 	display: flex;
 	justify-content: space-between;
-
+	width:$color1;
 	color: $main-text-color;
 
 	&__main-block {
