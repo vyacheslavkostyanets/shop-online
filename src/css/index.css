@@ -139,3 +139,29 @@ a {
     padding: 10px 0; }
   .recently-watched-products__title {
     margin-bottom: 40px; }
+
+.super-product {
+  background-image: url("../assets/images/massage-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black; }
+  .super-product__main-info {
+    width: max-width;
+    display: flex;
+    flex-direction: column; }
+  .super-product__wrapper {
+    display: flex;
+    padding: 215px 0; }
+  .super-product__title {
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 5.6rem; }
+  .super-product__subtitle {
+    font-size: 1.4rem;
+    line-height: 2.0rem; }
+  .super-product__button {
+    background-color: transparent;
+    border-color: #212325;
+    max-width: 17rem; }
+  .super-product__title, .super-product__subtitle {
+    margin-bottom: 55px; }
