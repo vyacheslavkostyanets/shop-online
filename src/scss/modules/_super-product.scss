@@ -4,7 +4,6 @@
 	background-size: cover;
 color: $main-text-color;
 	&__main-info {
-		width: max-width;
 
 		display: flex;
 		flex-direction: column;
@@ -13,6 +12,9 @@ color: $main-text-color;
 	&__wrapper {
 		display: flex;
 		padding: 215px 0;
+
+			justify-content: center;
+			margin-left: 10%;
 	}
 	&__title {
 		font-weight: bold;
