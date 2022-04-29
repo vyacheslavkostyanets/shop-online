@@ -1,0 +1,10 @@
+.recently-watched-products {
+	background-color: $recently-watched-products-background;
+
+	&__wrapper {
+		padding: 10px 0;
+	}
+	&__title {
+		margin-bottom: 40px;
+	}
+}

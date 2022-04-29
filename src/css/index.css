@@ -84,7 +84,7 @@ a {
   line-height: 1.6rem; }
   .default-button:hover {
     background-color: #7CB342;
-    color: #d0d8d27b; }
+    color: #ffffff; }
 
 .product-card {
   background-color: white;
@@ -132,3 +132,10 @@ a {
   padding-top: 0.1rem; }
   .special-products__title {
     margin-bottom: 1em; }
+
+.recently-watched-products {
+  background-color: #F9F9FA; }
+  .recently-watched-products__wrapper {
+    padding: 10px 0; }
+  .recently-watched-products__title {
+    margin-bottom: 40px; }
