@@ -1,0 +1,14 @@
+$sponsor-item-width: 150px;
+$sponsor-item-height: 50px;
+
+.sponsor-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid $color4;
+
+	&__img {
+width: $sponsor-item-width;
+height: $sponsor-item-height;
+	}
+}

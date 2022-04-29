@@ -1,0 +1,37 @@
+.super-product {
+	background-image: url('../assets/images/massage-banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+color: $main-text-color;
+	&__main-info {
+
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__wrapper {
+		display: flex;
+		padding: 215px 0;
+
+			justify-content: center;
+			margin-left: 10%;
+	}
+	&__title {
+		font-weight: bold;
+		font-size: 4.8rem;
+		line-height: 5.6rem;
+	}
+	&__subtitle {
+font-size: 1.4rem;
+line-height: 2.0rem;
+	}
+	&__button {
+		background-color: transparent;
+		border-color: $color1;
+		max-width: 17rem;
+	}
+	&__title,
+	&__subtitle {
+		margin-bottom: 55px;
+	}
+}

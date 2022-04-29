@@ -13,6 +13,15 @@ a {
   a:hover {
     text-decoration: underline; }
 
+.wrapper {
+  width: 60%; }
+
+section,
+footer,
+header {
+  display: flex;
+  justify-content: center; }
+
 .header-navigation {
   background-color: #B6D321; }
   .header-navigation__link {
@@ -84,7 +93,7 @@ a {
   line-height: 1.6rem; }
   .default-button:hover {
     background-color: #7CB342;
-    color: #d0d8d27b; }
+    color: #ffffff; }
 
 .product-card {
   background-color: white;
@@ -132,3 +141,139 @@ a {
   padding-top: 0.1rem; }
   .special-products__title {
     margin-bottom: 1em; }
+
+.recently-watched-products {
+  background-color: #F9F9FA; }
+  .recently-watched-products__wrapper {
+    padding: 10px 0; }
+  .recently-watched-products__title {
+    margin-bottom: 40px; }
+
+.super-product {
+  background-image: url("../assets/images/massage-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black; }
+  .super-product__main-info {
+    display: flex;
+    flex-direction: column; }
+  .super-product__wrapper {
+    display: flex;
+    padding: 215px 0;
+    justify-content: center;
+    margin-left: 10%; }
+  .super-product__title {
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 5.6rem; }
+  .super-product__subtitle {
+    font-size: 1.4rem;
+    line-height: 2.0rem; }
+  .super-product__button {
+    background-color: transparent;
+    border-color: #212325;
+    max-width: 17rem; }
+  .super-product__title, .super-product__subtitle {
+    margin-bottom: 55px; }
+
+.info-block {
+  padding: 5rem;
+  background-color: #F9F9FA;
+  border-radius: 1%;
+  margin: 2em 0;
+  color: #B6D321;
+  display: flex;
+  justify-content: space-between;
+  width: #212325;
+  color: black; }
+  .info-block__main-block {
+    display: flex;
+    flex-direction: column; }
+  .info-block__image-block {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6em; }
+  .info-block__image {
+    width: 70%; }
+  .info-block__title {
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.1rem; }
+  .info-block__subtitle {
+    font-size: 1.4rem;
+    line-height: 2rem; }
+  .info-block__title, .info-block__subtitle {
+    margin-bottom: 25px; }
+  .info-block__input {
+    border-radius: 30px;
+    background: #cbcbcb; }
+  .info-block__button {
+    border-color: #d0d8d27b;
+    background: #F9F9FA;
+    color: black; }
+
+.info-blocks__wrapper {
+  display: flex;
+  justify-content: center; }
+
+.info-blocks__item:not(:last-child) {
+  margin-right: 30px; }
+
+.sponsors {
+  background-color: #7CB342; }
+  .sponsors__wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+  .sponsors__item {
+    width: 25%;
+    max-width: 25%;
+    box-sizing: border-box; }
+
+.sponsor-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #B6D321; }
+  .sponsor-item__img {
+    width: 150px;
+    height: 50px; }
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #7CB342;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px; }
+  .social-link__icon {
+    width: 60%;
+    height: 60%; }
+  .social-link img {
+    width: 33px; }
+
+.footer {
+  background-color: #cbcbcb; }
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .footer__location-text {
+    font-size: 1.4rem;
+    line-height: 1.5rem; }
+  .footer__social-links {
+    display: flex;
+    align-items: center; }
+  .footer__social-link:not(:last-child) {
+    margin-right: 20px; }
+
+.copiryght__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0; }
+
+.copiryght__text, .copiryght__link {
+  font-size: 1.2rem;
+  line-height: 1.4rem; }
